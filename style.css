@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: bolder !important;
+    font-style: italic;
+}
+
+.blog-home {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    /* padding: 10px; */
+    margin-top: 30px;
+}
+
+.col-md-8 {
+    /* background-color: #ffffff; */
+
+}
+
+.card {
+    border: none;
+    margin: 50px;
+    padding: 2px;
+    background-color: white;
+}
+
+.col-md-3 {
+    background-color: #ffffff;
+    height: 300px;
+    margin: 50px;
+    padding: 20px;
+}
+
+/* login */
+.body-login {
+    background-color: #302626;
+    height: 100vh;
+}
+
+.back {
+    color: #fff;
+    width: 100px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all linear 0.3s;
+}
+
+.back:hover {
+    color: grey;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.login {
+    width: 460px;
+    /* height: 300px; */
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #efe;
+}
+
+.login h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn input {
+    margin-left: 130px;
+    width: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
