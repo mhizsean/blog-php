@@ -26,10 +26,10 @@ mysqli_close($conn);
 <?php include 'templates/header.php' ?>
 
 <div class="blog-home">
-    <div class="title-blogs">
+    <div class="title-blogs" style="margin-left: 60px; padding: 10px;">
         <h4>Latest Post</h4>
     </div>
-    <div class="row">
+    <div class="row" style="margin-top: -30px;">
 
         <div class="col-md-8">
             <!-- change to card -->
@@ -59,7 +59,11 @@ mysqli_close($conn);
 
         <!-- <div class="col-md-1"></div> -->
         <div class="col-md-3">
-            But I must explain to you how all this mistaken idea rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, w
+                <b>Latest Happenings</b> <br> <br>
+                <a href="#">The man that couldnt</a> <br>
+                <a href="#">The End of the World </a> <br>
+                <a href="#">Why Democracy?</a> <br>
+                <a href="#">You can do without him</a>
         </div>
     </div>
 </div>
